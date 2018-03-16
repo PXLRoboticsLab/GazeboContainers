@@ -28,28 +28,10 @@ $ sudo apt-get install docker-ce
 Follow the instructions at https://github.com/NVIDIA/nvidia-docker
 
 
-
-# Install the prlcontainers certificate
-Go to prlcontainers.pxl.be and click on the small green lock next to the url.
-
-![](https://i.imgur.com/CxgmJCa.png)
-
-Go to More information > View Certificate > Details > Export
-
-![](https://i.imgur.com/sWf0BfI.png)
-
-Export the certificate to your home folder and run the following commands:
-```
-$ sudo mv prlcontainerspxlbe.crt /usr/local/share/ca-certificates/
-```
-```
-$ sudo update-ca-certificates
-```
-
 # Make container
 
 ```
-$ sudo docker pull prlcontainers.pxl.be/prl/<repository:tag>
+$ sudo docker pull <repository:tag>
 ```
 ```
 $ xhost +local:root
