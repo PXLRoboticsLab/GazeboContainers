@@ -50,6 +50,7 @@ $ sudo update-ca-certificates
 ```
 $ sudo docker pull prlcontainers.pxl.be/prl/<repository:tag>
 ```
+Example: sudo docker pull prlcontainers.pxl.be/prl/simulators:eborghi10-ar.drone-ros
 ```
 $ xhost +local:root
 ```
