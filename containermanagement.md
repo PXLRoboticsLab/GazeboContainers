@@ -20,6 +20,10 @@ List all containers:
 ```
 sudo docker ps -a
 ```
+Execute command in running container:
+```
+sudo docker exec <options> <container> <command>
+```
 Stop container:
 ```
 sudo docker stop <container>
