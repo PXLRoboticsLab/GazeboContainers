@@ -45,7 +45,7 @@ Pull the container image:
 ```
 $ sudo docker pull <repository:tag>
 ```
-Example: sudo docker pull naecon/prl:eborghi10-ar.drone-ros
+Example: `sudo docker pull naecon/prl:eborghi10-ar.drone-ros`
 
 
 Enable showing GUI applications (__has to be executed after each restart__):
