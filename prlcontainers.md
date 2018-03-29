@@ -5,7 +5,7 @@ Update the package index:
 $ sudo apt-get update
 ```
 
-Install packages to allow to use a repository over HTTps:
+Install packages to allow to use a repository over HTTPS:
 ```
 $ sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 ```
@@ -30,7 +30,7 @@ Install Docker
 $ sudo apt-get install docker-ce
 ```
 
-Source: https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1
+Source: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 
 # For CUDA/cuDNN images, install nvidia docker
