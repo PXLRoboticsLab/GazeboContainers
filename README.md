@@ -33,7 +33,6 @@ $ sudo apt-get install docker-ce
 
 Source: https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1
 
-
 # For CUDA/cuDNN images, install nvidia docker
 
 Follow the instructions at https://github.com/NVIDIA/nvidia-docker
@@ -41,9 +40,15 @@ Follow the instructions at https://github.com/NVIDIA/nvidia-docker
 
 # Make container
 
+
+Pull the container image:
 ```
 $ sudo docker pull <repository:tag>
 ```
+Example: sudo docker pull naecon/prl:eborghi10-ar.drone-ros
+
+
+Enable showing GUI applications:
 ```
 $ xhost +local:root
 ```
