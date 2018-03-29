@@ -65,7 +65,7 @@ $ sudo docker pull <repository:tag>
 Example: sudo docker pull prlcontainers.pxl.be/prl:eborghi10-ar.drone-ros
 
 
-Enable showing GUI applications:
+Enable showing GUI applications (__has to be executed after each restart__):
 ```
 $ xhost +local:root
 ```
